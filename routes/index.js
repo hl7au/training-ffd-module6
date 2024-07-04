@@ -26,8 +26,8 @@ router.get('/', function(req, res, next) {
     // TODO: 8. Include Authorization Bearer header 
 
     const req_config = { headers: {
-      'Authorization': "Bearer " + access_token, 
-      'Accept': 'application/json' 
+      Authorization: "Bearer " + access_token, 
+      Accept: 'application/fhir+json' 
     }}
     
     // ********************************************
