@@ -27,7 +27,8 @@ router.get('/', function(req, res, next) {
 
     const req_config = { 
       headers: {
-        'Accept': 'application/json' 
+        Authorization: "TODO",
+        Accept: 'application/fhir+json' 
       }
     }
     
